@@ -1,11 +1,11 @@
 package main
 
 import (
-	_ "weixin/routers"
 	"github.com/astaxie/beego"
+	_ "weixin/routers"
 )
 
 func main() {
+	beego.Trace("Log is ok")
 	beego.Run()
 }
-
