@@ -25,6 +25,7 @@ func (this *TextMessageController) Post() {
 		beego.Trace("key:", k)
 		beego.Trace("val:", strings.Join(v, ""))
 	}
+
 	//for k, v := range r.PostForm {
 	//	beego.Trace("key:", k)
 	//	beego.Trace("val:", strings.Join(v, ""))
